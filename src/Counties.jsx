@@ -36,7 +36,7 @@ const Countries = () => {
             setFlags(resJson)
         }
         catch(error){
-            console.log(error)
+            console.log("Error fetching data:", error)
         }
         }
         fetchData()
